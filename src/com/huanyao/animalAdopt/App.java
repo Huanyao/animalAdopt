@@ -4,7 +4,11 @@ public class App {
 
 	public static void main(String[] args) {
 
-		System.out.println("动物收容所！");
+		sayHello("github");
+	}
+
+	private static void sayHello(String msg) {
+		System.out.println("hello"+msg);
 	}
 
 }
